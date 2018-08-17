@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+form {
+    width: 100%;
+    padding-top: 50px;
+}
+
+form div {
+    display: block;
+    padding-top: 5px;
+}
+
+input[type=text], 
+input[type=password], 
+input[type=email],  
+option,
+#selecione, 
+#textarea,
+#valor {
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+.col-2 {
+    width: 49%;
+    display: inline-block;
+}
+
+.col-right {
+    text-align: right;
+    vertical-align: top;
+}
+
+.col-left {
+    text-align: left;
+}
+
+.botao {
+    text-align: center;
+    margin-right: 15px
+
+}
+
+
+
+

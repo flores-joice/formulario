@@ -4,14 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+
 </head>
 <body>
 
     <!-- action é o caminho que irpa seguir após preencher o formulário, e GET é o método como as informações serão capturadas  -->
     <form action="" method="GET">
 
+        <div>
+            <label for="texto" class="col-2 col-right">Texto </label>
+            <input type="text" name="nome" placeholder="" class="col-2 col-left">
+        </div>
 
+        <div>
+            <label for="senha" class="col-2 col-right">Senha </label>
+            <input type="password" name="senha" placeholder="" class="col-2 col-left">
+            </div>
+        </div>
+
+        <div>
+            <div class="col-2 col-right">
+                <label for="checkbox">Escolha uma ou múltiplas opções</label>
+            </div>
+            <div class="col-2 col-left">
+                <input type="checkbox" name="checkbox" value="linda">Linda! <br>
+                <input type="checkbox" name="checkbox" value="maravilhosa">maravilhosa! <br>
+                <input type="checkbox" name="checkbox" value="poderosa">Poderosa! <br>
+                <input type="checkbox" name="checkbox" value="mulherao">Mulherão da Porra!
+            </div>
+        </div>
+
+        <div>
+            <label for="radius"class="col-2 col-right">Escolha <strong>uma</strong> opção</label>
+            <div class="col-2 col-left">
+                <input type="radio" name="radius" value="forca">Super Força <br>
+                <input type="radio" name="radius" value="invisivel">Ser Invisível <br>
+                <input type="radio" name="radius" value="mentes">Ler mentes <br>
+                <input type="radio" name="radius" value="velocidade">Super Velocidade
+            </div>
+        </div>
+
+        <div>
+            <label for="selecione" class="col-2 col-right">Selecione Dropdown </label>
+            <select name="selecione" id="selecione" class="col-2 col-left">
+                <option value="sugestao">Sugestão</option>
+                <option value="critica">Criticas</option>
+                <option value="elogio">Elogio</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="valor" class="col-2 col-right">Escolha um valor</label>
+            <input type="number" name="valor" id="valor" class="col-2 col-left">
+        </div>
+
+        <div>
+            <label for="email" class="col-2 col-right">email </label>
+            <input type="email" name="email" placeholder="Email" class="col-2 col-left">
+        </div>
+
+        <div>
+            <label for="comentario" class="col-2 col-right">Comentário </label>
+            <textarea maxlength="100" name="comentario" id="textarea" rows="10" class="col-2 col-left"></textarea>
+        </div>
+
+        <div class="botao">
+            <input type="reset" value="Reset">
+            <input type="submit" value="Enviar">
+        </div>
 
     </form>
     
